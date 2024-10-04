@@ -1,0 +1,94 @@
+/*--------Globales--------*/
+/* 
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+*/
+:root {
+    --negro: #393939;
+    --textos-logos:#9290C3;
+    --fondo:#070F2B;
+    /* Tipografía */
+    --tipo-principal: "Montserrat", sans-serif
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;/*1rem=10px*/
+    scroll-behavior: smooth;
+    /* height: 1000rem; */
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    vertical-align: baseline;
+}
+body{
+    min-height: 100vh;
+    font-family: var(--tipo-principal);
+    font-size: 1.6rem;
+    line-height: 2;/*interlineado 1.5 o 2*/
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+img, picture, video, iframe, figure {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+  
+p a {
+    display: inline;
+}
+li {
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em{
+    font-size: 1em;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+    content: none;
+}
+/* form, input, textarea, select, button, label {
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+    background-color: transparent;
+    color: inherit;
+    display: block;
+} */
+table, tr, td {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+  
+
+  
+  
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+  
